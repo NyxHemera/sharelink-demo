@@ -9,8 +9,9 @@ $('#fb-cr').on('click', function() {
 	var fbEnd = '">Share on Facebook';
 
 	$('#fb-uonly').text(fbURL + userURL);
+	$('#fb-uonly').css('display', 'inline');
 	$('#fb-sl').text(linkBegin + fbURL + userURL + fbEnd + linkEnd);
-
+	$('#fb-sl').css('display', 'inline');
 });
 
 //Twitter
@@ -21,8 +22,9 @@ $('#tw-cr').on('click', function() {
 	var twEnd = '">Share on Twitter';
 
 	$('#tw-uonly').text(twURL + userURL);
+	$('#tw-uonly').css('display', 'inline');
 	$('#tw-sl').text(linkBegin + twURL + userURL + twEnd + linkEnd);
-
+	$('#tw-sl').css('display', 'inline');
 });
 
 //Google Plus
@@ -33,6 +35,7 @@ $('#gp-cr').on('click', function() {
 	var gpEnd = '>Share on Google+';
 
 	$('#gp-uonly').text(gpURL + userURL);
+	$('#gp-uonly').css('display', 'inline');
 	$('#gp-sl').text(linkBegin + gpURL + userURL + gpEnd + linkEnd);
-
+	$('#gp-sl').css('display', 'inline');
 });

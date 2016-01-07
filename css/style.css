@@ -1,9 +1,25 @@
+#group-facebook {
+	background: #3b5998;
+	color: #f7f7f7;
+
+}
+
+#group-plus {
+	background: #db4437;
+	color: #e7e6dd;
+}
+
+#group-twitter {
+	background: #326ada;
+	color: #d4d8d4;
+}
+
 .btn-create {
+	margin: 0 auto;
 	padding: 10px 20px 10px 20px;
 
-	border: solid #2fa9fb 3px;
-	-webkit-border-radius: 16;
-	-moz-border-radius: 16;
+	max-width: 100%;
+
 	border-radius: 16px;
 
 	background: #249ef0;
@@ -12,6 +28,13 @@
 	background-image: -ms-linear-gradient(top, #249ef0, #165780);
 	background-image: -o-linear-gradient(top, #249ef0, #165780);
 	background-image: linear-gradient(to bottom, #249ef0, #165780);
+
+	-webkit-box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
+	-moz-box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
+	box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
 	
 	color: #ffffff;
 	font-size: 20px;
@@ -22,13 +45,50 @@
 	background: #165780;
 }
 
+.form-control {
+	font-family: helvetica;
+}
+
+.social-grouping {
+	margin: 10px;
+	padding: 10px;
+
+	max-height: 100%;
+
+	border-radius: 10px;
+
+	/*There are two insets to give a shadow on the bottom left
+	   and a glare on the top right. Simulates a bevel decently.*/
+	-webkit-box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
+	-moz-box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
+	box-shadow: inset 5px -5px 13px -7px rgba(0,0,0,0.75), 
+	inset -5px 5px 13px -7px rgba(255,255,255,1);
+
+}
+
 .text-sharelink {
 	margin: 0 auto;
 	margin-top: 15px;
 	padding: 0 auto;
 
+	display: none;
 	max-width: 100%;
 	min-width: 100%;
 
 	resize: none;
+	background: #dfe3ee;
+	color: black;
+
+	font-family: helvetica;
+}
+
+.text-title {
+
+	margin: 0 auto;
+	padding: 0;
+
+	font-family: helvetica;
+
 }
